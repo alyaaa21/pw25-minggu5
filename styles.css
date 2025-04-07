@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffc0cb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom right, #ffe4e1, #ffb6c1);
+    border-radius: 10px;
+    margin: 30px;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    color: #c71585;
+  }
+  
+  .products {
+    padding: 40px;
+  }
+  
+  .products h2 {
+    text-align: center;
+    color: #c71585;
+  }
+  
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    border: 1px solid #ffb6c1;
+    padding: 12px 20px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ffc0cb;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff5f7;
+  }
+  
+  .contact-form {
+    padding: 40px;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    color: #c71585;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fffafc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 192, 203, 0.4);
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    color: #444;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #db3e84;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffc0cb;
+    color: #fff;
+    margin-top: 30px;
+    border-top: 2px solid #fff;
+  }
+
+.product-image {
+  width: 150px; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
+}
+
+.product-image:hover {
+  transform: scale(1.1); 
+}
+
+.logo-bunga {
+  max-width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  margin-bottom: 20px;
+}
+
+  
